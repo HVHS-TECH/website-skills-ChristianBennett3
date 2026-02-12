@@ -36,3 +36,8 @@ img {
   max-width: 300px;
   height: auto;
 }
+
+.GalleryImages img{
+  min-width: 500px;
+  height: auto;
+}
