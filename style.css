@@ -7,7 +7,19 @@ body {
 
 .Heading {
   font-size: 25px;
+  background-color: red;
+  padding-left: 4px;
   }
+
+main{
+  background-color: orange;
+  padding-left: 4px;
+}
+
+footer{
+  background-color: green;
+  padding-left: 4px;
+}
 
 .HeadingLine {
   max-width: 600px;
