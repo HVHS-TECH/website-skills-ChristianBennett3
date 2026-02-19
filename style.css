@@ -50,3 +50,20 @@ img {
 a {
   color: rgb(255, 255, 255);
 }
+
+.Container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: orange;
+  padding: 10px;
+  gap: 5px;
+}
+
+.Container div{
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border: px;
+  font-size: 30px;
+  text-align: center;
+}
