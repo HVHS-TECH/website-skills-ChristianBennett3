@@ -57,13 +57,26 @@ a {
   background-color: orange;
   padding: 10px;
   gap: 5px;
+  gap: 10px;
 }
 
 .Container div{
-  background-color: green;
-  color: white;
+  background-color: White;
+  color: rgb(0, 0, 0);
   padding: 15px;
-  border: px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
+}
+
+.Container img{
+  height: 50px;
+  width: auto;
+}
+
+.Div1{
+  grid-row: span 2;
+}
+
+.Div10{
+  grid-column: span 2;
 }
