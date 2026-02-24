@@ -80,3 +80,27 @@ a {
 .Div10{
   grid-column: span 2;
 }
+
+@media screen and (min-width: 480px) and (max-width: 599px){
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media  screen and (min-width: 200px) and (max-width: 479px){
+  body{
+    background-color: aqua;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px){
+  body{
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  body{
+    background-color: rgb(94, 176, 204);
+  }
+}
