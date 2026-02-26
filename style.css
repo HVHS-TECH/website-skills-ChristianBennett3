@@ -5,15 +5,43 @@ body {
     font-family:Arial, Helvetica, sans-serif;
   }
 
+.Navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8400;
+}
+
+.Navbar ul li {
+  float: left;
+}
+
+.Navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navbar ul li a:hover {
+  background-color: #111111;
+}
+
+#Current{
+  background-color: #7e4100;
+}
+
 .Heading {
   font-size: 25px;
-  background-color: red;
+  background-color: rgb(20, 0, 167);
   padding-left: 4px;
   }
 
 main{
-  background-color: rgb(85, 55, 0);
-  padding-left: 4px;
+  background-color: red;
+  padding-left: px;
 }
 
 footer{
